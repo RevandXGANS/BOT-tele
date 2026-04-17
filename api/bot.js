@@ -29,7 +29,7 @@ app.post('/api/bot', async (req, res) => {
 
 app.get('/set-webhook', async (req, res) => {
   try {
-    const vercelUrl = 'https://bot-tele-umber.vercel.app/';
+    const vercelUrl = 'https://bot-tele-git-main-revandshaolin-7398s-projects.vercel.app/';
     const webhookUrl = `${vercelUrl}/api/bot`;
     
     await bot.deleteWebHook();
